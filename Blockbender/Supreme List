@@ -1,0 +1,75 @@
+THE SUMPREME LIST OF ALL LISTS
+
+URGENT FOR UPCOMING UPDATE:
+BUGS:
+- Can't see lightning //not our problem
+- Earth bugs:
+    - Stream: FAILURE! Link tokens.
+    - Impact Ring: FAILURE!
+    - Metal Armour: Buggy.
+    - Raise platform:
+        -Should sink back into floor.
+    - Build moves: Link tokens. Increase duration. Stop usage in combat.
+- Raise earth should set blocks below to air. [DISPUTED]
+
+FEATURES:
+- Sounds on every move
+- Check water nearby before waterbending
+- Manipulate:- Other moves can use this blob eg: - Shoot the blob (Shatter glass)
+                                                 - Disc shoot blob
+                                                 - Freeze the blob
+                                                 - Shoot the frozen blob
+                                                 - Shoot the frozen blob in a disc
+
+KNOWN BUGS:
+- sounds work on failed moves
+- metal armmour
+
+Idea pool:
+- Money should pay for tokens.
+- AI should set home area as well as town, so they return at night.
+- Cook all stews?
+- Cabbages! (crop).
+- Water skin (hold in chestplate slot) (Durability bar on how much water it is holding)
+- Sokka's club, maybe boomerang too.
+- Unique earth element tool (IDEAS: Dai Li gloves, Toph's bracelet, metalbender wires?)
+- Fire war balloons
+- Add remaining statues (Aang, Korra, Kuruk).
+- Bison fly.
+- Villager trading to obtain novice tokens.
+        - Benders added to villages, attack aggressive players, can obtain adept tokens from them.
+        - Masters added to villages, attack aggressive players, random chance of appearing (higher chance in bigger towns eg north tribe), can obtain master tokens from them.
+- Spirit world ideas
+    - Giant plants/spirits
+    - Spirit grass under top layer
+        - Change texture (More smooth ie clay block)
+        - Shouldn't break instantly
+    - Spirits that look like blocks
+        - Run away when you try and break them
+    - Structures
+        - Wan Shi Ton's library
+        - Tree of Time
+        - Random things
+    - When you die, you need to spawn in the overworld
+- Water tribe money, random chance of being accepted.
+-New bending system?
+    - When you choose your element, you already have 10 BASIC moves
+        - e.g. For water: Push, pull, rise, fall, freeze/thaw, etc
+    - On their own, none are particularly effective.
+    - At the beginning, mashing keys should not help
+        - Each move should be weak
+    - Finding scrolls/being trained gives you a combination
+        - If allies want to share combo's they know, they have to craft a scroll
+    - Using the combination results in a move (probably much like current moves)
+    - To make the moves more powerful (Novice/Adept/Master) you should visit villages to train with benders
+        - Scrolls can only get you novice strength
+    - This way, bending satchel can be irradicated, scrolls don't need to be carried to bend, and you can't lose moves
+    
+    
+Amount of stuff that we want in each element:
+- 15 moves
+- 4 structures
+- 2 villagers
+- 4 food items
+- 1 animal
+- 1 relic

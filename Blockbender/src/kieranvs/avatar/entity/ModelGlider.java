@@ -1,0 +1,201 @@
+package kieranvs.avatar.entity;
+
+import net.minecraft.client.model.ModelBase;
+import net.minecraft.client.model.ModelBiped;
+import net.minecraft.client.model.ModelRenderer;
+import net.minecraft.entity.Entity;
+
+public class ModelGlider extends ModelBase{
+  
+	ModelBiped player = new ModelBiped();
+    ModelRenderer Shaft;
+    ModelRenderer NoduleTop;
+    ModelRenderer NoduleBottom;
+    ModelRenderer TopLeftBar;
+    ModelRenderer LeftBar1;
+    ModelRenderer RightBar1;
+    ModelRenderer LeftBar2;
+    ModelRenderer RightBar2;
+    ModelRenderer LeftBottomBar1;
+    ModelRenderer RightBottomBar2;
+    ModelRenderer LeftTopFan1;
+    ModelRenderer RightTopFan1;
+    ModelRenderer TopRightBar;
+    ModelRenderer LeftTopFan2;
+    ModelRenderer RightTopFan2;
+    ModelRenderer LeftTopFan3;
+    ModelRenderer RightTopFan3;
+    ModelRenderer TopFan4;
+    ModelRenderer TopFan5;
+    ModelRenderer BottomLeftFan1;
+    ModelRenderer BottomRightFan1;
+  
+  public ModelGlider(){
+    textureWidth = 128;
+    textureHeight = 128;
+    
+      Shaft = new ModelRenderer(this, 0, 0);
+      Shaft.addBox(0F, 0F, -21F, 1, 1, 42);
+      Shaft.setRotationPoint(0F, 0F, 0F);
+      Shaft.setTextureSize(128, 128);
+      Shaft.mirror = true;
+      setRotation(Shaft, 0F, 0F, 0F);
+      NoduleTop = new ModelRenderer(this, 20, 4);
+      NoduleTop.addBox(-1F, 0F, 0F, 3, 1, 1);
+      NoduleTop.setRotationPoint(0F, 0.1F, -14F);
+      NoduleTop.setTextureSize(128, 128);
+      NoduleTop.mirror = true;
+      setRotation(NoduleTop, 0F, 0F, 0F);
+      NoduleBottom = new ModelRenderer(this, 20, 4);
+      NoduleBottom.addBox(-1F, 0F, 0F, 3, 1, 1);
+      NoduleBottom.setRotationPoint(0F, 0.1F, 13F);
+      NoduleBottom.setTextureSize(128, 128);
+      NoduleBottom.mirror = true;
+      setRotation(NoduleBottom, 0F, 0F, 0F);
+      TopLeftBar = new ModelRenderer(this, 0, 0);
+      TopLeftBar.addBox(0F, 0F, 0F, 16, 1, 1);
+      TopLeftBar.setRotationPoint(1F, 0.1F, -13F);
+      TopLeftBar.setTextureSize(128, 128);
+      TopLeftBar.mirror = true;
+      setRotation(TopLeftBar, 0F, 0F, 0F);
+      LeftBar1 = new ModelRenderer(this, 0, 0);
+      LeftBar1.addBox(0F, 0F, 0F, 14, 1, 1);
+      LeftBar1.setRotationPoint(1F, 0.2F, -12F);
+      LeftBar1.setTextureSize(128, 128);
+      LeftBar1.mirror = true;
+      setRotation(LeftBar1, 0F, -0.3717861F, 0F);
+      RightBar1 = new ModelRenderer(this, 0, 8);
+      RightBar1.addBox(-14F, 0F, 0F, 14, 1, 1);
+      RightBar1.setRotationPoint(0F, 0.2F, -12F);
+      RightBar1.setTextureSize(128, 128);
+      RightBar1.mirror = true;
+      setRotation(RightBar1, 0F, 0.3717861F, 0F);
+      LeftBar2 = new ModelRenderer(this, 0, 0);
+      LeftBar2.addBox(0F, 0F, 0F, 12, 1, 1);
+      LeftBar2.setRotationPoint(1F, 0.1F, -11F);
+      LeftBar2.setTextureSize(128, 128);
+      LeftBar2.mirror = true;
+      setRotation(LeftBar2, 0F, -0.9666439F, 0F);
+      RightBar2 = new ModelRenderer(this, 0, 0);
+      RightBar2.addBox(-12F, 0F, 0F, 12, 1, 1);
+      RightBar2.setRotationPoint(0F, 0.1F, -11F);
+      RightBar2.setTextureSize(128, 128);
+      RightBar2.mirror = true;
+      setRotation(RightBar2, 0F, 0.9666439F, 0F);
+      LeftBottomBar1 = new ModelRenderer(this, 0, 0);
+      LeftBottomBar1.addBox(0F, 0F, 0F, 6, 1, 1);
+      LeftBottomBar1.setRotationPoint(1F, 0.1F, 14F);
+      LeftBottomBar1.setTextureSize(128, 128);
+      LeftBottomBar1.mirror = true;
+      setRotation(LeftBottomBar1, 0F, -0.5511566F, 0F);
+      RightBottomBar2 = new ModelRenderer(this, 0, 0);
+      RightBottomBar2.addBox(-7F, 0F, 0F, 7, 1, 1);
+      RightBottomBar2.setRotationPoint(0F, 0.1F, 14F);
+      RightBottomBar2.setTextureSize(128, 128);
+      RightBottomBar2.mirror = true;
+      setRotation(RightBottomBar2, 0F, 0.5511566F, 0F);
+      LeftTopFan1 = new ModelRenderer(this, 0, 50);
+      LeftTopFan1.addBox(0F, 0F, 0F, 15, 0, 6);
+      LeftTopFan1.setRotationPoint(1F, 0.9F, -13F);
+      LeftTopFan1.setTextureSize(128, 128);
+      LeftTopFan1.mirror = true;
+      setRotation(LeftTopFan1, 0F, -0.0367438F, 0F);
+      RightTopFan1 = new ModelRenderer(this, 0, 50);
+      RightTopFan1.addBox(-15F, 0F, 0F, 15, 0, 6);
+      RightTopFan1.setRotationPoint(0F, 0.9F, -13F);
+      RightTopFan1.setTextureSize(128, 128);
+      RightTopFan1.mirror = true;
+      setRotation(RightTopFan1, 0F, 0.0367392F, 0F);
+      TopRightBar = new ModelRenderer(this, 0, 0);
+      TopRightBar.addBox(-16F, 0F, 0F, 16, 1, 1);
+      TopRightBar.setRotationPoint(0F, 0.1F, -13F);
+      TopRightBar.setTextureSize(128, 128);
+      TopRightBar.mirror = true;
+      setRotation(TopRightBar, 0F, 0F, 0F);
+      LeftTopFan2 = new ModelRenderer(this, 0, 50);
+      LeftTopFan2.addBox(0F, 0F, 0F, 13, 0, 6);
+      LeftTopFan2.setRotationPoint(3F, 0.8F, -12F);
+      LeftTopFan2.setTextureSize(128, 128);
+      LeftTopFan2.mirror = true;
+      setRotation(LeftTopFan2, 0F, -0.4776691F, 0F);
+      RightTopFan2 = new ModelRenderer(this, 0, 50);
+      RightTopFan2.addBox(-13F, 0F, 0F, 13, 0, 6);
+      RightTopFan2.setRotationPoint(-2F, 0.8F, -12F);
+      RightTopFan2.setTextureSize(128, 128);
+      RightTopFan2.mirror = true;
+      setRotation(RightTopFan2, 0F, 0.4776617F, 0F);
+      LeftTopFan3 = new ModelRenderer(this, 0, 50);
+      LeftTopFan3.addBox(0F, 0F, 0F, 11, 0, 5);
+      LeftTopFan3.setRotationPoint(3F, 0.7F, -9F);
+      LeftTopFan3.setTextureSize(128, 128);
+      LeftTopFan3.mirror = true;
+      setRotation(LeftTopFan3, 0F, -0.808363F, 0F);
+      RightTopFan3 = new ModelRenderer(this, 0, 50);
+      RightTopFan3.addBox(-11F, 0F, 0F, 11, 0, 5);
+      RightTopFan3.setRotationPoint(-2F, 0.7F, -9F);
+      RightTopFan3.setTextureSize(128, 128);
+      RightTopFan3.mirror = true;
+      setRotation(RightTopFan3, 0F, 0.8083667F, 0F);
+      TopFan4 = new ModelRenderer(this, 0, 50);
+      TopFan4.addBox(-5F, 0F, 0F, 11, 0, 9);
+      TopFan4.setRotationPoint(0F, 0.6F, -6F);
+      TopFan4.setTextureSize(128, 128);
+      TopFan4.mirror = true;
+      setRotation(TopFan4, 0F, 0F, 0F);
+      TopFan5 = new ModelRenderer(this, 0, 50);
+      TopFan5.addBox(-3F, 0F, 0F, 7, 0, 1);
+      TopFan5.setRotationPoint(0F, 0.6F, 3F);
+      TopFan5.setTextureSize(128, 128);
+      TopFan5.mirror = true;
+      setRotation(TopFan5, 0F, 0F, 0F);
+      BottomLeftFan1 = new ModelRenderer(this, 0, 50);
+      BottomLeftFan1.addBox(0F, 0F, 0F, 5, 0, 3);
+      BottomLeftFan1.setRotationPoint(1F, 0.9F, 15F);
+      BottomLeftFan1.setTextureSize(128, 128);
+      BottomLeftFan1.mirror = true;
+      setRotation(BottomLeftFan1, 0F, -0.5144128F, 0F);
+      BottomRightFan1 = new ModelRenderer(this, 0, 50);
+      BottomRightFan1.addBox(-5F, 0F, 0F, 5, 0, 3);
+      BottomRightFan1.setRotationPoint(0F, 0.9F, 15F);
+      BottomRightFan1.setTextureSize(128, 128);
+      BottomRightFan1.mirror = true;
+      setRotation(BottomRightFan1, 0F, 0.5144183F, 0F);
+  }
+  
+  public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5){
+    super.render(entity, f, f1, f2, f3, f4, f5);
+    setRotationAngles(f, f1, f2, f3, f4, f5, entity);
+    Shaft.render(f5);
+    NoduleTop.render(f5);
+    NoduleBottom.render(f5);
+    TopLeftBar.render(f5);
+    LeftBar1.render(f5);
+    RightBar1.render(f5);
+    LeftBar2.render(f5);
+    RightBar2.render(f5);
+    LeftBottomBar1.render(f5);
+    RightBottomBar2.render(f5);
+    LeftTopFan1.render(f5);
+    RightTopFan1.render(f5);
+    TopRightBar.render(f5);
+    LeftTopFan2.render(f5);
+    RightTopFan2.render(f5);
+    LeftTopFan3.render(f5);
+    RightTopFan3.render(f5);
+    TopFan4.render(f5);
+    TopFan5.render(f5);
+    BottomLeftFan1.render(f5);
+    BottomRightFan1.render(f5);
+  }
+  
+  private void setRotation(ModelRenderer model, float x, float y, float z){
+    model.rotateAngleX = x;
+    model.rotateAngleY = y;
+    model.rotateAngleZ = z;
+  }
+  
+  public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e){
+    super.setRotationAngles(f, f1, f2, f3, f4, f5, e);
+  }
+
+}

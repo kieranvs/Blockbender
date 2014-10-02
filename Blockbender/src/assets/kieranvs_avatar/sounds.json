@@ -1,0 +1,21 @@
+{
+    "AirVent": {"catagory": "master","sounds": [{"name": "AirVent","stream": false}]},
+    "Airbending01": {"catagory": "master","sounds": [{"name": "Airbending01","stream": false}]},
+    "Airbending02": {"catagory": "master","sounds": [{"name": "Airbending02","stream": false}]},
+    "Airbending03": {"catagory": "master","sounds": [{"name": "Airbending03","stream": false}]},
+    "Airbending04": {"catagory": "master","sounds": [{"name": "Airbending04","stream": false}]},
+    "AirbendingFast05": {"catagory": "master","sounds": [{"name": "AirbendingFast05","stream": false}]},
+    "AirbendingFast06": {"catagory": "master","sounds": [{"name": "AirbendingFast06","stream": false}]},
+    "AirbendingLong07": {"catagory": "master","sounds": [{"name": "AirbendingLong07","stream": false}]},
+    "AirbendingLong08": {"catagory": "master","sounds": [{"name": "AirbendingLong08","stream": false}]},
+    "wind": {"catagory": "master","sounds": [{"name": "wind","stream": false}]},
+    "fire01basic": {"catagory": "master","sounds": [{"name": "fire01basic","stream": false}]},
+    "fire02basic": {"catagory": "master","sounds": [{"name": "fire02basic","stream": false}]},
+    "fire03strong": {"catagory": "master","sounds": [{"name": "fire03strong","stream": false}]},
+    "fire04quick": {"catagory": "master","sounds": [{"name": "fire04quick","stream": false}]},
+    "fire05quick": {"catagory": "master","sounds": [{"name": "fire05quick","stream": false}]},
+    "fire06looping": {"catagory": "master","sounds": [{"name": "fire06looping","stream": false}]},
+    "Earthbending01": {"catagory": "master", "sounds": [{"name": "Earthbending01", "stream": false}]},
+    "Earthbending02": {"catagory": "master", "sounds": [{"name": "Earthbending02", "stream": false}]},
+    "Earthbending03": {"catagory": "master", "sounds": [{"name": "Earthbending03", "stream": false}]}
+}
